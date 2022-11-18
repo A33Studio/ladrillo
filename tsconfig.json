@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "jsx": "react", // support JSX
+        "strict": true, // stronger type-checking
+        "outDir": "dist", // output directory
+        "allowSyntheticDefaultImports": true, // support syntethic default imports
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}
