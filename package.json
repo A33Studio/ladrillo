@@ -1,8 +1,11 @@
 {
-  "name": "fran",
+  "name": "@wwdtdn/rogelio",
   "version": "0.1.0",
-  "description": "a design system",
-  "main": "dist/bundle.js",
+  "description": "wwdtdn's design system",
+  "main": "dist/bundle.min.js",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup --config"
@@ -10,7 +13,10 @@
   "keywords": [],
   "type": "module",
   "author": "adr",
-  "license": "ISC",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "react": "^18.2.0"
   },
