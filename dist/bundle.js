@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-function Button({ text, onClick }) {
+const Button = ({ text, onClick, }) => {
     return (React.createElement("button", { type: "button", onClick: onClick }, text));
-}
+};
 
 export { Button };
